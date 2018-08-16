@@ -5,8 +5,8 @@ Just started this class not ready will add to examples for each completed method
 php binding for cloudflare api v4
 
 <b>Example :</b>
-
-<pre>$api = new cloudflare_api('mail@mail.com','123bea123edd8e12345df5fd5f1234567c123');
+```php
+$api = new cloudflare_api('mail@mail.com','123bea123edd8e12345df5fd5f1234567c123');
 
 //get_zones
 $result = $api->get_zones();
@@ -54,4 +54,4 @@ $user_details = $api->get_user_details();
 
 //update_user_details
 $response = $api->update_user_details("first_name","last_name","telephone","country","zipcode");
-  </pre>
+```
